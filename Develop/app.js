@@ -81,4 +81,4 @@ $(".saveBtn").on("click", function (event) {
     let index = inputEl.attr("index")
     plans[index] = value;
     localStorage.setItem("myStoredPlans", JSON.stringify(plans));
-})
+});
